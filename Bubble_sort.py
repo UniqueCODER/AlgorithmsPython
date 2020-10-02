@@ -1,5 +1,5 @@
 def bubble_sort(a):
-    if len(a)<1:
+    if len(a) < 1:
         return a
     else:
         for i in range(len(a)):
@@ -9,5 +9,6 @@ def bubble_sort(a):
 
     return a
 
+y = [1]
 x = [2, 4, 4, 8, 1, 2, 6, 5, 9]
 print(bubble_sort(x))
